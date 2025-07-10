@@ -8,11 +8,39 @@
 }
 
 /* Shared Style */
+.dark_2{
+    color: #474747;
+}
 .base_color {
     color: #fd6e0a;
 }
+.btn-primary{
+    background-color: #fd6e0a;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+
+/* Nav Style */
 nav{
     display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
 }
 .nav-titale{
     font-size: 45px;
