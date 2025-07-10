@@ -21,6 +21,7 @@
     color: white;
     padding: 18px 35px;
     border-radius: 5px;
+    border: none;
 }
 
 
@@ -29,6 +30,7 @@ nav{
     display : flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav ul li{
     list-style: none;
@@ -45,4 +47,38 @@ nav li a{
 .nav-titale{
     font-size: 45px;
     font-weight: 800;
+}
+/* header */
+.header{
+    background-image: url(../Asset/developer.png),url(../Asset/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left,bottom right;
+}
+
+/* Banner Style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin : 0 35px 0 200px
+
+}
+.banner-container{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.banner-pp{
+    width: 580px;
 }
